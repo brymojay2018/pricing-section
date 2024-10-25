@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+/*  NAV-BAR-STYLES */
+.navbar-section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 1px solid #33333330;
+  position: fixed;
+}
+
+.navbar-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.company-logo{
+  width: fit-content;
+  height: auto;
+}
+
+.navbar-content{
+  width: fit-content;
+  height: auto;
+}
+
+.navbar-list{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 32px;
+}
+
+.navbar-list li{
+  list-style: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.634);
+  
+}
+
+
+.nav-bar-button{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.button-2 button{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  color: #0961F5;
+  background-color: #dbdfef;
+  border: none;
+  border-radius: 8px;
+  
+}
+
+/* PRICING-SECTION-STYLES */
+
+.pricing-section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  background-color: white;
+  padding-top: 140px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.pricing-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+  justify-content: start;
+  align-items: start;
+
+  
+}
+
+.pricing-caption-container{
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding-top: 32px;
+}
+
+.pricing-caption-title{
+  width: fit-content;
+  height: auto;
+}
+
+.pricing-caption-title h1{
+  font-size: 40px;
+  color: black;
+  font-weight: 800;
+}
+
+.pricing-description{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.pricing-description h2{
+  font-size: 23px;
+  font-weight: 500;
+  color: black;
+}
+
+.pricing-description p{
+  font-size: 16px;
+  font-weight: 350;
+  color: rgb(94, 89, 89);
+  line-height: 28px;
+}
+
+.pricing-tag-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.pricing-list-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  justify-content: space;
+  align-items: start;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 16px;
+  border-radius: 2px;
+  border: 1px solid gainsboro; 
+  border-radius: 16px;
+  background-color: #f7f7f702;
+}
+
+.card-45{
+  background-color: aliceblue;
+}
+
+.subscription-details{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.subscription-title{
+  width: 100%;
+  height: auto;
+}
+
+.subscription-title h3{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.caption-content{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  
+}
+
+.pricing-caption{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.pricing-caption h4{
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+
+.pricing-caption p{
+  font-size: 18px;
+  font-weight: 300;
+  color: grey;
+}
+
+.pricing-desk-description p{
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+}
+
+.pricing-button{
+  width: 100%;
+  height: auto;
+}
+.pricing-button button{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 450;
+  padding: 12px 12px 12px 12px;
+  border-radius: 12px;
+  color: white;
+  background-color: #0961F5;
+  outline: none; /* Ensure no outline on focus */
+  border: none;
+  border-radius: 8px;
+}
+
+.why-us-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.why-us-caption-title{
+  width: fit-content;
+  height: auto;
+}
+
+.why-us-caption-title h3{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.why-us-description{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.why-us-description p{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.624);
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* mobile-responsiveness */
+
+@media (max-width: 768px) {
+
+  /* nav-bar-style */
+
+  .navbar-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #33333330;
+    position: fixed;
+  }
+  
+  .navbar-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  
+  .company-logo{
+    width: fit-content;
+    height: auto;
+  }
+  
+  .navbar-content{
+    display: none;
+  }
+  
+  .navbar-list{
+    display: none;
+  }
+  
+  .navbar-list li{
+    display: none;
+  }
+  
+  .nav-bar-button{
+    display: none;
+  }
+
+  /* pricing-section */
+
+  .pricing-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .pricing-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    justify-content: start;
+    align-items: start;
+  
+    
+  }
+  
+  .pricing-caption-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding-top: 32px;
+  }
+  
+  .pricing-caption-title{
+    width: fit-content;
+    height: auto;
+  }
+  
+  .pricing-caption-title h1{
+    font-size: 36px;
+    color: black;
+    font-weight: 800;
+  }
+  
+  .pricing-description{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  
+  .pricing-description h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .pricing-description p{
+    font-size: 16px;
+    font-weight: 350;
+    color: rgb(94, 89, 89);
+    line-height: 28px;
+  }
+  
+  .pricing-tag-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .pricing-list-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: space;
+    align-items: start;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+    border-radius: 2px;
+    border: 1px solid gainsboro; 
+    border-radius: 16px;
+    background-color: #f7f7f702;
+  }
+  
+  .card-45{
+    background-color: aliceblue;
+  }
+  
+  .subscription-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+  
+  .subscription-title{
+    width: 100%;
+    height: auto;
+  }
+  
+  .subscription-title h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .caption-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    
+  }
+  
+  .pricing-caption{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    align-items: center;
+  }
+  
+  .pricing-caption h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .pricing-caption p{
+    font-size: 18px;
+    font-weight: 300;
+    color: grey;
+  }
+  
+  .pricing-desk-description p{
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+  }
+  
+  .pricing-button{
+    width: 100%;
+    height: auto;
+  }
+  .pricing-button button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 450;
+    padding: 12px 12px 12px 12px;
+    border-radius: 12px;
+    color: white;
+    background-color: #0961F5;
+    outline: none; /* Ensure no outline on focus */
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .why-us-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .why-us-caption-title{
+    width: fit-content;
+    height: auto;
+  }
+  
+  .why-us-caption-title h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .why-us-description{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  
+  .why-us-description p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.624);
+    line-height: 24px;
+    font-weight: 400;
+  }
+}
